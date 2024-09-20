@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" /> <!--활동 인식 권한-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!--정확한 위치 인식 권한-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!--대략적인 위치 인식 권한-->
 
     <application
         android:allowBackup="true"
